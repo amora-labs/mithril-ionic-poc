@@ -4,7 +4,7 @@ var app = {
         console.log("load users")
         m.request({
             method: "GET",
-            url: "http://jsonplaceholder.typicode.com/users"
+            url: "//jsonplaceholder.typicode.com/users"
         }).then(users => app.users = users)
     },
     view: function (vnode) {
